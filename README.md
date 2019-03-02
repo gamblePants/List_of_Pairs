@@ -16,7 +16,7 @@ For educational purposes (mainly my own). An exercise using lists, arrays and fo
 
 ## Example data
 
-Given the list of 1, 3, 5, 7 and 9 - and the integer k = 2, the program should return 4.
+Given the list of (1, 3, 5, 7, 9), and the integer k = 2, the program should return 4.
 (That is there are 4 pairs in the list where the difference equals 2). 
 
 ## Example code
