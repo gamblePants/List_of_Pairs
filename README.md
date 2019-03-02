@@ -1,6 +1,6 @@
 # List of Pairs
 
-A simple exercise: Given a list of integers and an integer(k), write a program which splits the list in to pairs, and checks each pair to see how many of them equal k.
+Given a list of integers and an integer(k), write a program which splits the list in to pairs, and checks each pair to see how many of them equal k.
 
 ## Purpose
 
