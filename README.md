@@ -9,7 +9,7 @@ For educational purposes (mainly my own). An exercise using lists, arrays and fo
 ## How to run program
 
 - The easiest way is to run the program online from DonNetFiddle: https://dotnetfiddle.net/O16f2C
-- Alternatively click on the "release" tab, download the "Source code" zipped folder and extract
+- Alternatively click on the "release" tab above, download the Source code zipped folder and extract
 - The List_of_Pairs.sln file will need to be run in an IDE that can compile in C# (like Visual Studio)
 
 ## Example data
