@@ -23,24 +23,24 @@ Given the list of (1, 3, 5, 7, 9), and the integer k = 2, the program should ret
 
 ```C#
 static int PairDifference(List<int> numbers, int k)
+{
+	int answer = 0;
+	List<int[]> pairs = new List<int[]>();
+	for (int i = 0; i < numbers.Count - 1; i++)
+	{
+		pairs.Add(new[]{numbers[i], numbers[i + 1]});
+	}
+
+	for (int i = 0; i < pairs.Count; i++)
+	{
+		if (pairs[i][1] - pairs[i][0] == k)
 		{
-			int answer = 0;
-			List<int[]> pairs = new List<int[]>();
-			for (int i = 0; i < numbers.Count - 1; i++)
-			{
-				pairs.Add(new[]{numbers[i], numbers[i + 1]});
-			}
-
-			for (int i = 0; i < pairs.Count; i++)
-			{
-				if (pairs[i][1] - pairs[i][0] == k)
-				{
-					answer += 1;
-				}
-			}
-
-			return answer;
+			answer += 1;
 		}
+	}
+
+	return answer;
+}
 ```
 
 ![PairDifference.PNG](https://gamblepants.github.io/img/PairDifference.PNG)
