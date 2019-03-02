@@ -4,7 +4,7 @@ A simple exercise: Given a list of integers and an integer(k), write a program w
 
 ## Purpose
 
-For educational purposes (mainly my own). An exercise using lists, arrays and for-loops. This is an example of the type of question I have seen during a programming interview test. There are different ways of solving this question, in this case it is solved with 2 for-loops.
+For educational purposes (mainly my own). An exercise using lists, arrays and for-loops. This is an example of a question I have seen in a programming interview. There are different ways of solving this question, in this case it is solved with 2 for-loops.
 
 ## How to run program
 
@@ -17,7 +17,7 @@ For educational purposes (mainly my own). An exercise using lists, arrays and fo
 ## Example data
 
 Given the list of (1, 3, 5, 7, 9), and the integer k = 2, the program should return 4.
-(That is there are 4 pairs in the list where the difference equals 2). 
+(There are 4 pairs in the list where the difference equals 2). 
 
 ## Example code
 
@@ -43,4 +43,3 @@ static int PairDifference(List<int> numbers, int k)
 }
 ```
 
-![PairDifference.PNG](https://gamblepants.github.io/img/PairDifference.PNG)
