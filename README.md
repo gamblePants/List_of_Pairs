@@ -1,6 +1,6 @@
 # List_of_Pairs
 
-A simple exercise: Given a list of integers and an integer(k), write a program which splits the list in to pairs, and checks each pair to see if the difference equals k
+A simple exercise: Given a list of integers and an integer(k), write a program which splits the list in to pairs, and checks each pair to see how many of them equal k.
 
 ## Purpose
 
@@ -13,6 +13,11 @@ For educational purposes (mainly my own). An exercise using lists, arrays and fo
   <li>Alternatively click on the "Release" tab, download the "Source code" zipped folder and extract</li>
   <li>The List_of_Pairs.csproj file will need to be run in an IDE that can compile in C# (like Visual Studio)</li>
 </ul>
+
+## Example data
+
+Given the list of 1, 3, 5, 7 and 9 - and the integer k = 2, the program should return 4.
+(That is there are 4 pairs in the list where the difference equals 2). 
 
 ## Example code
 
