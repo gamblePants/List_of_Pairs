@@ -19,7 +19,7 @@ For educational purposes (mainly my own). An exercise using lists, arrays and fo
 Given the list of (1, 3, 5, 7, 9), and the integer k = 2, the program should return 4.
 (There are 4 pairs in the list where the difference equals 2). 
 
-## Example code
+## Code snippet
 
 ```C#
 static int PairDifference(List<int> numbers, int k)
