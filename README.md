@@ -4,7 +4,7 @@ Given a list of integers and an integer(k), write a program which splits the lis
 
 ## Purpose
 
-For educational purposes (mainly my own). An exercise using lists, arrays and for-loops. This is an example of a question I have seen in a programming interview. There are different ways of solving this question, in this case it is solved with 2 for-loops.
+For educational purposes (mainly my own). An exercise using lists, arrays and for-loops. This is an example of a question I have seen in a programming interview. Solved with 2 for-loops.
 
 ## How to run program
 
